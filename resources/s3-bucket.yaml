@@ -6,6 +6,6 @@ spec:
   forProvider:
     region: us-east-1
     tags:
-      environment: devops-gitops
+      environment: devops-gitops-1
   providerConfigRef:
     name: default
