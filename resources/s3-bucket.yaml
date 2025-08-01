@@ -1,11 +1,11 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: klebernetes-crossplane-bucket
+  name: klvdev-teste-s3-bucket
 spec:
   forProvider:
     region: us-east-1
-    tags:
-      environment: devops-gitops-1
+    # tags:
+    #   environment: devops-gitops-1
   providerConfigRef:
     name: default
