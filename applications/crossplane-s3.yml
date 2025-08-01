@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/klvdev/crossplane-s3-bucket.git
     targetRevision: main
-    path: .
+    path: resources
   destination:
     server: https://kubernetes.default.svc
     namespace: crossplane-system
