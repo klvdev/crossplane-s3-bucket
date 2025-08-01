@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     region: us-east-1
-    # tags:
-    #   environment: devops-gitops-1
+    tags:
+      environment: production
   providerConfigRef:
     name: default
