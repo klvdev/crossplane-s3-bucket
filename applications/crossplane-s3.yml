@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: crossplane-s3
+  name: crossplane-s3-2
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: git@github.com:klvdev/crossplane-s3-bucket.git
+    repoURL: https://github.com/klvdev/crossplane-s3-bucket.git
     targetRevision: main
     path: .
   destination:
